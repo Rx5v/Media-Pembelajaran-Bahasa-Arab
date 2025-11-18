@@ -92,7 +92,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ item, onClick }) => (
           : "border-l-[6px] border-l-red-400"
       }`}
   >
-    <div className="absolute top-0 -left-full h-full w-full bg-gradient-to-r from-transparent via-white/10 to-transparent transition-all duration-700 group-hover:left-full"></div>
+    <div className="absolute top-0 -left-full h-full w-full bg-linear-to-r from-transparent via-white/10 to-transparent transition-all duration-700 group-hover:left-full"></div>
 
     <div
       className={`mb-2 text-lg font-semibold ${

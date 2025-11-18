@@ -7,31 +7,10 @@ interface LinkBasedPageProps extends NotificationProps {
   icon: string;
 }
 
-interface LinkItem {
-  id: number;
-  url: string;
-}
-
-const LinkBasedPage: React.FC<LinkBasedPageProps> = ({
-  title,
-  placeholder,
-  icon,
-  showNotification,
-}) => {
-  const [links, setLinks] = useState<string>(
+const LinkBasedPage: React.FC<LinkBasedPageProps> = ({ title, icon }) => {
+  const [links] = useState<string>(
     "https://docs.google.com/forms/d/e/1FAIpQLSfm_7P-7N6fblGel7AAELWEpZYhO78yBinCx_eqto3mlR7IiA/viewform?usp=header"
   );
-  const [linkInput, setLinkInput] = useState<string>("");
-  const [counter, setCounter] = useState<number>(0);
-
-  const isValidUrl = (string: string): boolean => {
-    try {
-      new URL(string);
-      return true;
-    } catch (_) {
-      return false;
-    }
-  };
 
   return (
     <div className="w-full max-w-3xl animate-fadeInUp p-5 py-10 mx-auto">

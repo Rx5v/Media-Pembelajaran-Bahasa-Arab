@@ -19,7 +19,7 @@ const HomePage: React.FC<PageProps> = ({ navigateTo }) => {
       </p>
       <button
         onClick={() => navigateTo("main-menu")}
-        className="animate-glow cursor-pointer rounded-full bg-gradient-to-r from-cyan-400 to-blue-600 px-20 py-6 text-3xl font-extrabold uppercase tracking-widest text-white shadow-lg shadow-cyan-400/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cyan-400/60 md:text-4xl"
+        className="animate-glow cursor-pointer rounded-full bg-linear-to-r from-cyan-400 to-blue-600 px-20 py-6 text-3xl font-extrabold uppercase tracking-widest text-white shadow-lg shadow-cyan-400/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cyan-400/60 md:text-4xl"
       >
         START
       </button>

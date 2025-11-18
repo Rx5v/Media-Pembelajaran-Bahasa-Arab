@@ -189,7 +189,7 @@ const App: React.FC = () => {
   const BackButton: React.FC<{ onClick: () => void }> = ({ onClick }) => (
     <button
       onClick={onClick}
-      className="fixed bottom-7 right-7 z-50 rounded-full bg-gradient-to-r from-red-500 to-red-600 px-7 py-4 text-lg font-bold text-white shadow-lg shadow-red-500/40 transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-red-500/60"
+      className="fixed bottom-7 right-7 z-50 rounded-full bg-linear-to-r from-red-500 to-red-600 px-7 py-4 text-lg font-bold text-white shadow-lg shadow-red-500/40 transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-red-500/60"
     >
       ← BACK
     </button>

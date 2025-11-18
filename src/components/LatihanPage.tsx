@@ -35,7 +35,7 @@ const exams = [
   },
 ];
 
-const LatihanPage: React.FC<NotificationProps> = ({ showNotification }) => (
+const LatihanPage: React.FC<NotificationProps> = () => (
   <>
     <div className="w-full max-w-3xl animate-fadeInUp p-5 py-5 mx-auto">
       <h1 className="mb-10 text-center text-3xl font-bold text-white text-shadow-md md:text-4xl">
