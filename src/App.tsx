@@ -59,7 +59,7 @@ const babData: Record<string, BabItem> = {
     subtitle: "Tasawuq (Belanja)",
     items: ["mufrodat", "hiwar", "audio", "teks", "qowaid"],
     file: {
-      mufrodat: { file: Bab1Image, type: "file" },
+      mufrodat: { file: Bab1Image, type: "image" },
       hiwar: { file: Bab1Video, type: "video" },
       audio: { file: Bab1Audio, type: "audio" },
       teks: { file: Bab1Text, type: "file" }, // 'teks' bukan 'text'
@@ -92,8 +92,8 @@ const babData: Record<string, BabItem> = {
   },
   bab4: {
     id: 4,
-    title: " الصِّحَ",
-    subtitle: "Shihah (Kesehatan)",
+    title: " الجَامِعَة  ",
+    subtitle: "Jaami'ah (Universitas)",
     items: ["mufrodat", "hiwar", "audio", "teks"],
     file: {
       mufrodat: { file: Bab4Image, type: "image" },
@@ -104,11 +104,11 @@ const babData: Record<string, BabItem> = {
   },
   bab5: {
     id: 5,
-    title: " الصِّحَ",
-    subtitle: "Shihah (Kesehatan)",
+    title: "الحَج وَ الأُمْرَة",
+    subtitle: "Haj wal Umrah  (Haji dan Umrah)",
     items: ["mufrodat", "hiwar", "audio", "teks"],
     file: {
-      mufrodat: { file: Bab5Image, type: "file" },
+      mufrodat: { file: Bab5Image, type: "image" },
       hiwar: { file: Bab5Video, type: "video" },
       audio: { file: Bab5Audio, type: "audio" },
       teks: { file: Bab5Text, type: "file" },
@@ -116,11 +116,11 @@ const babData: Record<string, BabItem> = {
   },
   bab6: {
     id: 6,
-    title: " الصِّحَ",
-    subtitle: "Shihah (Kesehatan)",
+    title: "التِكْنُلُوجِيَ ",
+    subtitle: "Tiknulujiya (Teknologi)",
     items: ["mufrodat", "hiwar", "audio", "teks"],
     file: {
-      mufrodat: { file: Bab6Image, type: "file" },
+      mufrodat: { file: Bab6Image, type: "image" },
       hiwar: { file: Bab6Video, type: "video" },
       audio: { file: Bab6Audio, type: "audio" },
       teks: { file: Bab6Text, type: "file" },

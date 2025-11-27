@@ -1,5 +1,5 @@
 // Bab 1
-import bab1image from "./assets/bab-1/Materi 1_Pasar.pdf";
+import bab1image from "./assets/bab-1/belanja1.png";
 import bab1Video from "./assets/bab-1/bab-1.mp4";
 import bab1Audio from "./assets/bab-1/audio cerita.mp3";
 import bab1qowaid from "./assets/bab-1/qowaid.pdf";
@@ -24,13 +24,13 @@ import bab4Audio from "./assets/bab-4/audio 4.mp3";
 import bab4text from "./assets/bab-4/teks bacaan.png";
 
 // Bab 5
-import bab5image from "./assets/bab-5/mufrodat 5.pdf";
+import bab5image from "./assets/bab-5/haji.png";
 import bab5Video from "./assets/bab-5/haji umroh.mp4";
 import bab5Audio from "./assets/bab-5/audio 5.mp3";
 import bab5text from "./assets/bab-5/materi.pdf";
 
 // Bab 6
-import bab6image from "./assets/bab-6/mufrodat 6.pdf";
+import bab6image from "./assets/bab-6/teknologi.png";
 import bab6Video from "./assets/bab-6/teknologi.mp4";
 import bab6Audio from "./assets/bab-6/audio 6.mp3";
 import bab6text from "./assets/bab-6/materi 6.pdf";
